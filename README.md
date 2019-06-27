@@ -18,11 +18,19 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 ```
-make sure python3 is installed
+x86_64 linux OS, such as Ubuntu16.04 or MacOS10.xx 
 ```
 
+make sure below package installed. You can install with pip3
+
 ```
-x86_64 linux OS, such as Ubuntu16.04 or MacOS10.xx 
+tensorflow
+pytest
+requests
+opencv-python
+numpy
+Cython
+codecov
 ```
 
 ### Installing by the setup.sh
