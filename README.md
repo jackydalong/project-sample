@@ -18,6 +18,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 ```
+make sure python3 is installed
+```
+
+```
 x86_64 linux OS, such as Ubuntu16.04 or MacOS10.xx 
 ```
 
@@ -37,10 +41,14 @@ chmod +x setup.sh
 ```
 ## Running the tests
 
-Star the WebUI
+Start the WebUI
 
 ```
-./setup.sh
+cd flood_analyzer/webUI
+```
+
+```
+npm start 
 ```
 
 Upload a phote with car in city flood, then you will it is classified into one of four categories of water depth.
