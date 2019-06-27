@@ -24,6 +24,7 @@ x86_64 linux OS, such as Ubuntu16.04 or MacOS10.xx
 make sure below package installed. You can install with pip3
 
 ```
+python3
 tensorflow
 pytest
 requests
