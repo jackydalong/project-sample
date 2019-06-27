@@ -1,8 +1,17 @@
-# Project Title
+# City Flood Analyzer
 
-*Read this in other languages: [English](README.md), [한국어](README.ko.md), [português](README.pt_br.md).*
+Background:
+   It is not rare to see city flood around the world.
+   Its impact is huge, sometimes it can be a disaster. 
 
-One or two paragraphs of project description goes here. Talk about the scope of the problem that you are addressing and include any relevant NGO definitions of existing goals or initiatives. Describe the impact of the problem on human lives and the wellbeing of communities.
+Idea:
+   Sending real-time images & videos taken by 
+   city-wide surveillance cameras & smart phone
+     
+   To Flood Analyzer (neural network model we build) which classify water depth
+   on city roads based on reference objects such as car and pedestrian, 
+   then send water depth information to website or smart phone APP. 
+
 
 Then explain the anticipated or proven impact of your solution, and explaining in particular the novel or innovative advantage this has over existing solutions that make it attractive to developers and users (such as potential customers).
 
