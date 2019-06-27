@@ -1,21 +1,15 @@
 # City Flood Analyzer
 
 Background:
-   It is not rare to see city flood around the world.
-   Its impact is huge, sometimes it can be a disaster. 
+   It is not rare to see city flood around the world. Its impact is huge, sometimes it can be a disaster. 
 
 Idea:
-   Sending real-time images & videos taken by 
-   city-wide surveillance cameras & smart phone
-     
-   To Flood Analyzer (neural network model we build) which classify water depth
+   Sending real-time images & videos taken by city-wide surveillance cameras & smart phone     
+   to Flood Analyzer (neural network model we build) which classify water depth
    on city roads based on reference objects such as car and pedestrian, 
    then send water depth information to website or smart phone APP. 
 
-
-Then explain the anticipated or proven impact of your solution, and explaining in particular the novel or innovative advantage this has over existing solutions that make it attractive to developers and users (such as potential customers).
-
-[Project website](https://call-for-code.github.io/project-sample/)
+The project could keep government and citizens acknowledged of the real-time city flood severity so as to choose the safest road where with lowest water depth.
 
 ## Getting Started
 
@@ -23,78 +17,40 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
-Give examples
+x86_64 linux OS, such as Ubuntu16.04 or MacOS10.xx 
 ```
 
-### Installing
+### Installing by the setup.sh
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
 
 ```
-Give the example
+cd flood_analyzer/
 ```
 
-And repeat
-
 ```
-until finished
+chmod +x setup.sh
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
+```
+./setup.sh
+```
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Star the WebUI
 
 ```
-Give an example
+./setup.sh
 ```
 
-### And coding style tests
+Upload a phote with car in city flood, then you will it is classified into one of four categories of water depth.
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* Node.js - The web framework used
+* darkflow - https://github.com/thtrieu/darkflow
 
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
